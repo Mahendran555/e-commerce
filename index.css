@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+button{
+    height: 40px;
+    width: 80px;
+    border-width: 0px;
+    background-color: rgb(6, 131, 240);
+    color: #ffffff;
+    border-radius: 10px;
+    margin-top: 60px;
+    cursor: pointer;
+}
+.button_background{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+button:hover{
+    background-color: transparent;
+    border-width: 1px;
+    color: black;
+    font-weight: bolder;
+}
+.background{
+    background-image: url(./shopping-cart-with-wooden-elements_23-2148879381.jpg);
+    height: 100vh;
+    background-size: cover;
+    width: 100%;
+}
+h1{
+    color: black;
+    font-family: sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+}
+h1:hover{
+    color: rgb(4, 151, 237);
+}
